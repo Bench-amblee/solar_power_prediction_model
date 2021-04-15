@@ -23,9 +23,9 @@ After analyzing this data we should be able to:
 
 **Method**
 
-Use data from resorts around the country to determine which features correlate most with ticket price. 
+Analyze the individual performance of each array to determine if any arrays are outliers or underperforming
 
-![Heatmap](/Images/BMR_heatmap.png)
+![Arrays](/Images/arrays.ind.png)
 
 According to this heatmap, the features that have the highest positive correlation with price are:
 - Fast Quads
