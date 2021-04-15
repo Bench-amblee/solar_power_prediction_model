@@ -48,7 +48,7 @@ I decided to try two different types of models, a linear regression imputed with
 
 - **Random Forest Model:** Adding all eight features gave us a model that was much more accurate, with a Mean Absolute Error around $1. This was the model that was used to determine the final ticket price for the resort. After cross validating the two models, this one produced more consistent results and a lower MAE. 
 
-While creating this price model, I also discovered that Big Mountain Resort could save more on operations costs by closing a certain number of runs each day. As seen by this chart: 
+While creating this price model, I also discovered that Big Mountain Resort could save more on operations costs by closing a certain number of runs each day. As seen by this chart
 
 ![closedRuns](/Images/BMR_closedRuns.png)
 
