@@ -16,7 +16,7 @@ We've gathered data from two separate power plants in India, including both powe
 **Goal**
 
 After analyzing this data we should be able to: 
-- Predict how much power the plant should generate throughout one day given known weather data
+- Predict how much power the plant should generate throughout one day, one month, or one year given previous weather data
 - Determine whether or not a certain array of panels is properly functioning and be able to identify poorly performing panels
 - Test our prediction against the real data to determine its accuracy
 
