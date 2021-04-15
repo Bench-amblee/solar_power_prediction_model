@@ -29,13 +29,13 @@ Analyze the individual performance of each array to determine if any arrays are 
 
 No one array was dragging the pwoer plant down, but too double check we compared the each array to the average for each day and found, once again, that no one array was under or overperforming.   
 
-![Array 1 Compared to Average](array_v_average.JPG)    
+![Array 1 Compared to Average](images/array_v_average.JPG)    
 
 **Nominal Operating Cell Temperature**    
 
 Halfway through the exploratory data analysis, we learned about the equation for Nominal Operatig Cell Temperature, which is not only a way to predict the temperature of the solar cells but also analyze it's overall efficiency.
 
-![NOCT Calculation](NOCT_calculation.JPG)
+![NOCT Calculation](images/NOCT_calculation.JPG)
 
 Using this, in addition to finding out which variables were most important through a correlation heatmap, we were able to determine that the most important features for creating our model were:
 
