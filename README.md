@@ -31,7 +31,7 @@ According to this heatmap, the features that have the highest positive correlati
 - Fast Quads
 - Area of Snow Makers
 - Runs
-- Night skiing ratio
+- Night skiing rati
 
 After testing each feature individually against price (using one to one scatterplots), the other important features that stood out were: 
 
