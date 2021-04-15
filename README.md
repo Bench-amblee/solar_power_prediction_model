@@ -25,7 +25,7 @@ After analyzing this data we should be able to:
 
 Analyze the individual performance of each array to determine if any arrays are outliers or underperforming
 
-![Arrays](/images/arrays.ind.png)
+![Arrays](/images/arrays_ind.png)
 
 According to this heatmap, the features that have the highest positive correlation with price are:
 - Fast Quads
