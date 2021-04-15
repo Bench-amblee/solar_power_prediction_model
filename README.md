@@ -1,4 +1,4 @@
-# Solar Power Prediction Model
+# ☀️ Solar Power Prediction Model ⚡️
 ## Data Science Project
 - For code go to Notebooks: [Notebooks](/sppm.ipynb)
 - For raw data go to Data: [Data](/Data)
