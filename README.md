@@ -13,10 +13,13 @@ Solar plants are a great, clean way to generate energy, however they can be unre
 
 We've gathered data from two separate power plants in India, including data about each plant’s power generation and relative weather. This data was taken over a 34 day period and takes outputs every 15 minutes. Using this we can get a good idea of how each subset of solar arrays and the plants as a whole performed on a given day
 
-
 **Goal**
 
-Create a new data-based pricing strategy for Big Mountain Resort to increase revenue and cover their operating expenses. The resort can set whatever price they want but they need to stay competitive and not lose customers. Setting a price too low is just as bad as setting a price that’s too high, a model must be created in order to set a fair price for the facilities that the resort has to offer.
+After analyzing this data we should be able to: 
+- Predict how much power the plant should generate throughout one day given known weather data
+- Determine whether or not a certain array of panels is properly functioning and be able to identify poorly performing panels
+- Test our prediction against the real data to determine its accuracy
+
 
 **Method**
 
