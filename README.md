@@ -1,6 +1,6 @@
 # Solar Power Prediction Model
 ## Data Science Project
-- For code go to Notebooks: [Notebooks](/Notebooks)
+- For code go to Notebooks: [Notebooks](/notebooks)
 - For raw data go to Data: [Data](/Data)
 - Read the full report here: [Report](/Big_Mountain_Report.pdf)
 - View presentations slides here: [Presentation](/BMR_Presentation.pdf)
