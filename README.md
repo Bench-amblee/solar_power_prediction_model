@@ -1,6 +1,6 @@
 # Solar Power Prediction Model
 ## Data Science Project
-- For code go to Notebooks: [Notebook 1](/BMR_data_wrangling.ipynb), [Notebook 2](/BMR_exploratory_analysis.ipynb), [Notebook3](/BMR_data_processing.ipynb), [Notebook 4](/BMR_modeling.ipynb)
+- For code go to Notebooks: [Notebooks](/Notebooks)
 - For raw data go to Data: [Data](/Data)
 - Read the full report here: [Report](/Big_Mountain_Report.pdf)
 - View presentations slides here: [Presentation](/BMR_Presentation.pdf)
