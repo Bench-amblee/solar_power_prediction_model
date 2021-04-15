@@ -1,13 +1,18 @@
 # Solar Power Prediction Model
 ## Data Science Project
-- For code go to Notebooks: [Notebooks](/notebooks)
+- For code go to Notebooks: [Notebooks](/sppm.ipynb)
 - For raw data go to Data: [Data](/Data)
-- Read the full report here: [Report](/Big_Mountain_Report.pdf)
-- View presentations slides here: [Presentation](/BMR_Presentation.pdf)
+- Full Report Coming Soon
+- Presentation Slides Coming Soon
 
-**Problem Statement**
+**Problem Statement**   
 
-Big Mountain Resort, a popular resort located in Whitefish, Montana, is rethinking their pricing strategy. With the addition of a new lift chair, the resort’s operating cost has gone up by $1,540,000. How can Big Mountain Resort use data to create a new, competitive price that will offset this and all other operating expenses.
+Solar plants are a great, clean way to generate energy, however they can be unreliable. It’s impossible to know exactly how much power an individual panel or an entire plant will produce in a day, this can make running a solar power plant an incredibly difficult and unpredictable task. How can we use data to better predict the output of a solar power plant on a given day? 
+
+**Context**     
+
+We've gathered data from two separate power plants in India, including data about each plant’s power generation and relative weather. This data was taken over a 34 day period and takes outputs every 15 minutes. Using this we can get a good idea of how each subset of solar arrays and the plants as a whole performed on a given day. 
+
 
 **Goal**
 
@@ -66,4 +71,3 @@ The model suggests that adding this would justify a $2 increase in ticket price,
 With these new changes, Big Mountain resort should expect to see a significant increase in their revenue, as seen below: 
 
 ![Revenue](/Images/BMR_revenue.png)
-
