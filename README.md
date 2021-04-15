@@ -11,7 +11,7 @@ Solar plants are a great, clean way to generate energy, however they can be unre
 
 **Context**     
 
-We've gathered data from two separate power plants in India, including data about each plant’s power generation and relative weather. This data was taken over a 34 day period and takes outputs every 15 minutes. Using this we can get a good idea of how each subset of solar arrays and the plants as a whole performed on a given day. 
+We've gathered data from two separate power plants in India, including data about each plant’s power generation and relative weather. This data was taken over a 34 day period and takes outputs every 15 minutes. Using this we can get a good idea of how each subset of solar arrays and the plants as a whole performed on a given day
 
 
 **Goal**
