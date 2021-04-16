@@ -1,6 +1,6 @@
 # ☀️ Solar Power Prediction Model ⚡️
 ## Data Science Project
-- For code go to [Notebooks](/sppm.ipynb)
+- For code go to [Notebooks](/notebooks)
 - For raw data go to [Data](/Data)
 - Live Statistics and Predictions: https://share.streamlit.io/bench-amblee/streamlit/main/solar_site.py
 
