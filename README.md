@@ -46,17 +46,23 @@ Using this, in addition to finding out which variables were most important throu
 
 **Modeling**
 
-I decided to try two different types of models, a linear regression imputed with the median and mean values, and a random forest model by adding additional classifications. 
+This time around we tried three different models, and because we already had the equation to tell us exactly what our power output values should be, we had very good testing/train splits. The three models we tested were as follows:
 
-- **Linear Regression:** As stated above, this model worked by imputing missing values with median and mean values based on the data we had. With the four features from the heatmap used, this model had a Mean Absolute Error of $9 which was much too high for this scale. 
+- **Linear Regression:** A simple, normalized linear regression witha test size of 0.25. This worked really well because our many of the relationships between variables were already linear. With high model score and a low Mean Absolute Error this looked like a great pick at first.
 
-- **Random Forest Model:** Adding all eight features gave us a model that was much more accurate, with a Mean Absolute Error around $1. This was the model that was used to determine the final ticket price for the resort. After cross validating the two models, this one produced more consistent results and a lower MAE. 
+- **Random Forest Model:** This model was imputed with the mean and with 12 estimators for our data pipeline. The results were underwhelming, with a much lower score than the linear regression and higher MAE.
 
-While creating this price model, I also discovered that Big Mountain Resort could save more on operations costs by closing a certain number of runs each day. As seen by this chart
+- ** Gradient Boosting:** Initiall this model yielding a MAE of around -10 but with some improvements to the hyperparameters, notably increases the number of trees to 70, we eventually got a great model score and an even lower MAE.
 
-![closedRuns](/Images/BMR_closedRuns.png)
+To properly determine which model would most accurately predict the daily power output, we decided to make two random sets of data and each model against a control using the same random data. On the far right you'll see the "real" data, meaning what the power output should look like and to the left you'll see how each model performed.
 
-The resort could close up to six runs per day without seeing a significant drop in revenue! 
+![Model Performances](images/model_test.JPG)
+
+As you can see, the Gradient Boosting model was closest. To further verify this we made a new, much larger set of random data and compared the two again:
+
+![Model Larger Performances](images/model_large.JPG)
+
+The Gradient Boosting Model was the most accurate for predicting power output!
 
 **Conclusion**
 
