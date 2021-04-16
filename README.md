@@ -66,21 +66,21 @@ The Gradient Boosting Model was the most accurate for predicting power output!
 
 **Conclusion**
 
-The Random Forest Model placed Big Mountain Resorts ideal ticket price at $94.22, much higher than their current price of $81. Therefore in order to increase revenue and lower operation costs, Big Mountain Resort should: 
+Using the model, we calculated the power output for the past 20 years in Gandikota,India using historical meteorological data. With this we were able to determine a good estimation for how much power the plant should generate in 2021: 
 
-- Raise ticket price to $89.99 
-- Have 4-6 Runs closed each day to save on operations cost
+![Predictions](images/model_predictions.JPG)
 
+To further validate our model and the importance of machine learning in general, we also calculated a "simple sum" of the plant's power output by taking the power it generated over ~31 days and multiplying it by 12. This graph shows the difference that machine learning can make in prediction models: 
 
-To improve their facilities, encourage higher ticket prices, and improve their resort’s overall appeal: 
+![Machine Learning Performance](images/simple_sum.JPG)
 
-- Increase vertical drop (a highly price correlated feature) by 150 ft
-- Add one chair lift
-- Add an additional run
-- Add 2 acres of snow cover
+The last thing we tested was how much extra power the Gandikota plant could generate by upgrading it's solar arrays. While analyzing we determine the arrays to have a NOCT value aroud 18, while industry average is around 48 today. I replaced the plant's NOCT to see how big of a difference it would make:
 
-The model suggests that adding this would justify a $2 increase in ticket price, which given Big Mountain’s 350,000 annual visitors would result in approximately $700,000 in additional revenue. 
+![Upgrade](images/upgrade.JPG)
 
-With these new changes, Big Mountain resort should expect to see a significant increase in their revenue, as seen below: 
+If the Gandikota power plant upgraded they would generate an additional:
 
-![Revenue](/Images/BMR_revenue.png)
+- 191388153.45 kW/hrs
+- $6,315,809.06 in revenue
+
+in just one year after upgrading. I recommend that the power plant invests into upgrading their arrays so that they can improve overall efficiency and generate more revenue for better salaries, expansion opportunites and more green energy!
