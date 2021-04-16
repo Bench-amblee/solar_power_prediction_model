@@ -27,7 +27,7 @@ Analyze the individual performance of each array to determine if any arrays are 
 
 ![Arrays](/images/arrays_ind.JPG)    
 
-No one array was dragging the pwoer plant down, but too double check we compared the each array to the average for each day and found, once again, that no one array was under or overperforming.   
+No one array was dragging the power plant down, but too double check we compared the each array to the average for each day and found, once again, that no one array was under or overperforming.   
 
 ![Array 1 Compared to Average](images/array_v_average.JPG)    
 
