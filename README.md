@@ -52,7 +52,7 @@ This time around we tried three different models, and because we already had the
 
 - **Random Forest Model:** This model was imputed with the mean and with 12 estimators for our data pipeline. The results were underwhelming, with a much lower score than the linear regression and higher MAE.
 
-- **Gradient Boosting:** Initiall this model yielding a MAE of around -10 at first, but with some improvements to the hyperparameters, notably increasing the number of trees to 70, we eventually got a great model score and an even lower MAE.
+- **Gradient Boosting:** Initially this model yielded a MAE of around -10, but with some improvements to the hyperparameters, notably increasing the number of trees to 70, we eventually got a great model score and an even lower MAE.
 
 To properly determine which model would most accurately predict the daily power output, we decided to make two random sets of data and each model against a control using the same random data. On the far right you'll see the "real" data, meaning what the power output should look like, and to the left you'll see how each model performed.
 
