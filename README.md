@@ -79,7 +79,7 @@ The last thing we tested was how much extra power the Gandikota plant could gene
 
 If the Gandikota power plant upgraded they would generate an additional:
 
-- 191388153.45 kW/hrs
+- 191,388,153.45 kW/hrs
 - $6,315,809.06 in revenue
 
 in just one year after upgrading. I recommend that the Gandikota Solar Power Plant invests into upgrading their arrays so that they can improve overall efficiency and generate more revenue for better salaries, expansion opportunites and more green energy!
