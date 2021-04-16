@@ -2,8 +2,7 @@
 ## Data Science Project
 - For code go to Notebooks: [Notebooks](/sppm.ipynb)
 - For raw data go to Data: [Data](/Data)
-- Full Report Coming Soon
-- Presentation Slides Coming Soon
+- Live Statistics and Predictions: https://share.streamlit.io/bench-amblee/streamlit/main/solar_site.py
 
 **Problem Statement**   
 
