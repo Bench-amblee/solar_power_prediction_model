@@ -53,7 +53,7 @@ This time around we tried three different models, and because we already had the
 
 - **Gradient Boosting:** Initially this model yielded a MAE of around -10, but with some improvements to the hyperparameters, notably increasing the number of trees to 70, we eventually got a great model score and an even lower MAE.
 
-To properly determine which model would most accurately predict the daily power output, we decided to make two random sets of data and each model against a control using the same random data. On the far right you'll see the "real" data, meaning what the power output should look like, and to the left you'll see how each model performed.
+To properly determine which model would most accurately predict the daily power output, we decided to make two random sets of data and compare each model against a control using the same random data. On the far left you'll see the "real" data, meaning what the power output should look like, and to the right you'll see how each model performed.
 
 ![Model Performances](images/model_test.JPG)
 
@@ -73,7 +73,7 @@ To further validate our model and the importance of machine learning in general,
 
 ![Machine Learning Performance](images/simple_sum.JPG)
 
-The last thing we tested was how much extra power the Gandikota plant could generate by upgrading it's solar arrays. While analyzing, we determine the arrays currently have a NOCT value aroud 18, while industry average is around 48 today. I replaced the plant's NOCT to see how big of a difference it would make:
+The last thing we tested was how much extra power the Gandikota plant could generate by upgrading its solar arrays. While analyzing, we determine the arrays currently have a NOCT value around 18, while industry average is around 48 today. I replaced the plant's NOCT to see how big of a difference it would make:
 
 ![Upgrade](images/upgrade.JPG)
 
@@ -82,4 +82,4 @@ If the Gandikota power plant upgraded they would generate an additional:
 - 191,388,153.45 kW/hrs
 - $6,315,809.06 in revenue
 
-in just one year after upgrading. I recommend that the Gandikota Solar Power Plant invests into upgrading their arrays so that they can improve overall efficiency and generate more revenue for better salaries, expansion opportunites and more green energy!
+in just one year after upgrading. I recommend that the Gandikota Solar Power Plant invests into upgrading their arrays so that they can improve overall efficiency and generate more revenue for better salaries, expansion opportunities and more green energy!
