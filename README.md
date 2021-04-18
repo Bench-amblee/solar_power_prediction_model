@@ -3,6 +3,8 @@
 - For code go to [Notebooks](/notebooks)
 - For raw data go to [Data](/Data)
 - Live Statistics and Predictions: https://share.streamlit.io/bench-amblee/streamlit/main/solar_site.py
+- Full [Report](solar_pwoer_report.pdf)
+- Presentation [Slides](solar_power_presentation.pdf)
 
 **Problem Statement**   
 
